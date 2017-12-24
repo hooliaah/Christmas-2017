@@ -1,18 +1,36 @@
 @font-face {
     font-family: stackyard;
-    src: url(../fonts/stackyard.ttf);
+    src: url("../fonts/stackyard.ttf");
+ }
+
+ body {
+    background: url("../images/christmas-colour.png");
+ }
+
+ .jumbotron {
+     background: white;
+     color: #023462;
+     text-align: center;
  }
  
  h1 {
     font-family: stackyard;
  }
 
- #stackyard-font {
-     font-family: stackyard;
+ .red-font {
+     color: #b81816;
  }
 
- #arimo-font {
+ .green-font{
+     color: #36562d;
+ }
+
+ .background-white {
+     background: white;
+ }
+
+ .arimo-font {
     font-family: 'Arimo', sans-serif;
+    text-align: center;
  }
-
 
