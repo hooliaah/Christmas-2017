@@ -3,15 +3,19 @@
     src: url("../fonts/stackyard.ttf");
  }
 
- body {
-    background: white;
- }
-
  .jumbotron {
-    background: #b81816;
+    background: #cb4a4c;
     color: white;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 0.2rem;
+ }
+
+ .row {
+     margin: 0;
+ }
+
+ h1 {
+     font-size: 3.5rem;
  }
  
  .stackyard-font {
@@ -40,15 +44,36 @@
 
  .background-pattern {
     background: url("../images/christmas-colour.png");
+    padding: 1rem 1rem;
  }
 
  .background-green {
-    background: #36562d;
+    background: #4d714b;
     color: white;
-    margin: 20px 0px;
+    padding: 1rem 1rem;
  }
 
  .background-red {
     background: #b81816;
  }
 
+#huck-header {
+    margin-bottom: 1rem;
+}
+
+.huck-photo {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.songs-header {
+    margin-top: .5rem;
+}
+
+footer {
+    background: #cb4a4c;
+}
+
+#footer-text {
+    margin-bottom: 0;
+}
